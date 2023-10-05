@@ -1,0 +1,25 @@
+{
+    "name": "jpgerber/chaos-frame",
+    "description": "A very simple framework that includes a static user login/logout class, as well as a router. More to come. See README for more details.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jordan Gerber",
+            "email": "jordangerber@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CFW\\": "src/"
+        },
+        "files": [
+            "src/Debug/debug.php",
+            "src/Network/db.php"
+        ]
+    }
+}
